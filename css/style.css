@@ -1,0 +1,121 @@
+/* import inter font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* { 
+    cursor: crosshair;
+}
+
+h1,p,a,body {
+    font-family: "Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+header {
+   font-weight: bold;
+   font-size: 10em;
+}
+
+bigcaptions {
+    font-size: 3em;
+    font-weight: bold;
+}
+medcap {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+a.menu {
+    display: inline-block;
+    margin-right: 1em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+a.menu:hover {
+    background-color: rgb(9, 9, 9);
+    border: 1px black;
+    color: rgb(255, 255, 255);
+}
+.linear-wipe {  
+    background: #CF1D5E;
+    background: linear-gradient(to right, #CF1D5E 0%, #32A0CF 100%);
+    background-clip:text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  model-viewer.large {
+    height: 300px;
+    width: 1200px;
+
+  }
+
+  table,th,tr,td {
+    border-collapse: collapse;
+    border: 10px black;
+    border-radius: 5px;
+    padding: 100px;
+  }
+
+  container {
+    max-width: 360px;
+    max-height: 350px;
+    min-height: 248px;
+    width: 100%;
+    height: 100%;
+    padding: 38px 30px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    transition-duration: 0.5s;
+  }
+
+  container:hover {
+    background-color: rgba(241, 241, 241, 0.558);
+  }
+
+  contents {
+
+    padding: 38px 30px;
+    z-index: 2;
+
+   
+  }
+
+  hr.seperate {
+    border: 20px black;
+    border-radius: 3px;
+  }
+
+  container.dl {
+    transition: 0.5s;
+  }
+  a.diffmenu {
+    display: inline-block;
+    margin-right: 1em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+  a.diffmenu:hover {
+   background: linear-gradient(to right, #39a6ab 0%, #32A0CF 100%);
+   border: 1px black;
+   color: rgb(255, 255, 255);
+  }
+
+
+  container.dl:hover {
+    border-color: #9ecaed;
+    box-shadow:
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 100px 60px rgb(137, 240, 240), /* middle magenta */
+    0 0 140px 70px #0ff; /* outer cyan */
+  }
